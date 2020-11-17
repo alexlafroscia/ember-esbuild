@@ -2,6 +2,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+    "ember-cli-esbuild",
     "test-packages/*"
   ]
 }
