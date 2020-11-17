@@ -1,5 +1,7 @@
 {
   "license": "MIT",
   "private": true,
-  "workspaces": []
+  "workspaces": [
+    "test-packages/*"
+  ]
 }
