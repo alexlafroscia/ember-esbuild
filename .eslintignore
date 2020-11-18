@@ -1,0 +1,7 @@
+# Ember build output files
+dist/
+tmp/
+
+# Dependencies
+node_modules/
+
