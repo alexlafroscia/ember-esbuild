@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "npm-run-all lint:**",
     "lint:js": "eslint .",
-    "lint:other": "prettier --check '**/*.{json,md,yml}'"
+    "lint:other": "prettier --check '**/*.{json,md,yml}'",
+    "test": "yarn workspaces run test"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
