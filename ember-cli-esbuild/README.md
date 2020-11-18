@@ -21,6 +21,10 @@ This addon serves to replace [ Babel ](https://babeljs.io) with [ esbuild ](http
 
 With this addon installed and `ember-cli-babel` removed, that's all there is to do!
 
+## Motivation
+
+Babel is an excellent tool, and an underpinning of most modern web development tool-chains. However, there is considerable activity in this space as developers seek out better-performing tools that can make use of more modern browser features. With how fast esbuild is, the hope is that developers using Ember can leverage the better performance to decrease the build-time of their applications, resulting in a much more satisfying development experience.
+
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
