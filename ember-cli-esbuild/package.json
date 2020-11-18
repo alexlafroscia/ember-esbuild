@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-esbuild",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Ember addon for transpiling with ESBuild",
   "keywords": [
     "ember-addon"
   ],
@@ -14,17 +14,13 @@
   },
   "scripts": {
     "build": "ember build --environment=production",
-    "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
-    "lint:hbs": "ember-template-lint .",
-    "lint:js": "eslint .",
     "start": "ember serve",
-    "test": "npm-run-all lint:* test:*",
+    "test": "npm-run-all test:*",
     "test:ember": "ember test",
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^7.22.1",
-    "ember-cli-htmlbars": "^5.3.1"
+    "broccoli-esbuild-transpiler": "^1.0.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -46,9 +42,7 @@
     "ember-resolver": "^8.0.2",
     "ember-source": "~3.22.0",
     "ember-source-channel-url": "^3.0.0",
-    "ember-template-lint": "^2.14.0",
     "ember-try": "^1.4.0",
-    "eslint": "^7.11.0",
     "eslint-plugin-ember": "^9.3.0",
     "eslint-plugin-node": "^11.1.0",
     "loader.js": "^4.7.0",

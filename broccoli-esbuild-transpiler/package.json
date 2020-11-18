@@ -1,0 +1,23 @@
+{
+  "name": "broccoli-esbuild-transpiler",
+  "version": "1.0.0",
+  "description": "Broccoli plugin for transpiling code with ESBuild",
+  "main": "index.js",
+  "author": "Alex LaFroscia <alex@lafroscia.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "qunit"
+  },
+  "dependencies": {
+    "broccoli-persistent-filter": "^3.1.2",
+    "esbuild": "^0.8.9"
+  },
+  "devDependencies": {
+    "broccoli-test-helper": "^2.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "qunit": "^2.12.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

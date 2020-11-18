@@ -2,7 +2,21 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+    "broccoli-esbuild-transpiler",
     "ember-cli-esbuild",
     "test-packages/*"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "volta": {
+    "node": "12.19.1",
+    "yarn": "1.22.10"
+  }
 }

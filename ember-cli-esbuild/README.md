@@ -1,38 +1,30 @@
-ember-cli-esbuild
-==============================================================================
+# ember-cli-esbuild
 
-[Short description of the addon.]
+Process your Ember files with esbuild
 
+## Compatibility
 
-Compatibility
-------------------------------------------------------------------------------
+- Ember.js v3.16 or above
+- Ember CLI v2.13 or above
+- Node.js v10 or above
 
-* Ember.js v3.16 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
-
-
-Installation
-------------------------------------------------------------------------------
+## Installation
 
 ```
+yarn remove ember-cli-babel
 ember install ember-cli-esbuild
 ```
 
+## Usage
 
-Usage
-------------------------------------------------------------------------------
+This addon serves to replace [ Babel ](https://babeljs.io) with [ esbuild ](https://esbuild.github.io) in your Ember build pipeline. esbuild is considerably faster than Babel and does most of the same things.
 
-[Longer description of how to use the addon in apps.]
+With this addon installed and `ember-cli-babel` removed, that's all there is to do!
 
-
-Contributing
-------------------------------------------------------------------------------
+## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
-
-License
-------------------------------------------------------------------------------
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
