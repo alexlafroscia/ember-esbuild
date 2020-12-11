@@ -1,6 +1,6 @@
 {
   "name": "broccoli-esbuild-transpiler",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "Broccoli plugin for transpiling code with ESBuild",
   "main": "index.js",
   "author": "Alex LaFroscia <alex@lafroscia.com>",

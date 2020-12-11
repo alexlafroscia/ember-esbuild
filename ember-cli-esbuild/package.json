@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-esbuild",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "Ember addon for transpiling with ESBuild",
   "keywords": [
     "ember-addon"
@@ -20,7 +20,7 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
-    "broccoli-esbuild-transpiler": "^1.0.0"
+    "broccoli-esbuild-transpiler": "^1.0.0-alpha.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
