@@ -24,7 +24,7 @@
     "ember-cli": "~3.22.0",
     "ember-cli-app-version": "^4.0.0",
     "ember-cli-dependency-checker": "^3.2.0",
-    "ember-cli-esbuild": "^1.0.0",
+    "ember-cli-esbuild": "^1.0.0-alpha.0",
     "ember-cli-htmlbars": "^5.3.1",
     "ember-cli-inject-live-reload": "^2.0.2",
     "ember-cli-sri": "^2.1.1",

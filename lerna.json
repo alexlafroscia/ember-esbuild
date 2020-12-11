@@ -1,4 +1,8 @@
 {
   "version": "1.0.0-alpha.0",
-  "packages": ["broccoli-esbuild-transpiler", "ember-cli-esbuild"]
+  "packages": [
+    "broccoli-esbuild-transpiler",
+    "ember-cli-esbuild",
+    "test-packages/**"
+  ]
 }
