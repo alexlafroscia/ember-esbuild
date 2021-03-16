@@ -21,10 +21,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install Dependencies
         run: yarn install
-      - name: Run ESLint
-        run: yarn lint
-      - name: Check Non-JS files
-        run: yarn prettier --check "**/*.{json,md,yml}"
+      - run: yarn lint
 
   test-broccoli-plugin:
     name: Test Broccoli Plugin
