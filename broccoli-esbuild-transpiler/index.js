@@ -15,8 +15,8 @@ module.exports = class ESBuild extends Filter {
     return __dirname;
   }
 
-  processString(content, relativePath) {
-    const result = esbuild.transformSync(content, {
+  async processString(content, relativePath) {
+    const result = await esbuild.transform(content, {
       ...this.esbuildTransformOptions,
       sourcefile: relativePath,
     });
