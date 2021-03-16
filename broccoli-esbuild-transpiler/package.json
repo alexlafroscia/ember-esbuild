@@ -3,8 +3,13 @@
   "version": "1.0.0-alpha.0",
   "description": "Broccoli plugin for transpiling code with ESBuild",
   "main": "index.js",
-  "author": "Alex LaFroscia <alex@lafroscia.com>",
   "license": "MIT",
+  "author": "Alex LaFroscia <alex@lafroscia.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexlafroscia/ember-esbuild.git",
+    "directory": "brocccoli-esbuild-transpiler"
+  },
   "scripts": {
     "test": "qunit"
   },
