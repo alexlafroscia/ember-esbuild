@@ -1,3 +1,8 @@
+> **Archival Notice**: This experiment will not come to maturity in its current state. ESBuild is not appropriate for bundling an Ember app on it's own; there is too much that needs to happen that is out-of-scope for ESBuild that is a requirement for packaging an Ember app.
+> The future of ESBuild in Ember will look much more like a [Vite](https://vitejs.dev) packager for [Embroider](https://github.com/embroider-build/embroider); see [this PR](https://github.com/embroider-build/embroider/pull/759) for more details.
+
+---
+
 # Ember ESBuild
 
 Ember tooling to process files with [esbuild](https://esbuild.github.io)
